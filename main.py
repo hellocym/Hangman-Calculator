@@ -28,7 +28,7 @@ while True:
     ltrList = list()
     while True:
         freq = {chr(i):0 for i in range(97,123)}
-        ltr = input('Input Letter:')
+        ltr = input('Input Letter(new for restart):')
         if ltr == 'new':
             break
         ltrList.append(ltr)
